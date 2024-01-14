@@ -1,0 +1,61 @@
+html {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pumpkin-image {
+  position: fixed;
+}
+
+.social-box {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  bottom: 20px;
+  width: 100%;
+  z-index: 10;
+  gap: 30px;
+}
+
+#twitter-social,
+#youtube-social,
+#discord-social,
+#twitch-social,
+#github-social,
+#instagram-social,
+#reddit-social,
+#soundcloud-social,
+#spotify-social {
+  transition: scale 0.15s;
+}
+
+#twitter-social:hover,
+#youtube-social:hover,
+#discord-social:hover,
+#twitch-social:hover,
+#github-social:hover,
+#instagram-social:hover,
+#reddit-social:hover,
+#soundcloud-social:hover,
+#spotify-social:hover {
+  scale: 130%;
+  transition: scale 0.15s;
+}
+
+#twitter-social:active,
+#youtube-social:active,
+#discord-social:active,
+#twitch-social:active,
+#github-social:active,
+#instagram-social:active,
+#reddit-social:active,
+#soundcloud-social:active,
+#spotify-social:active {
+  scale: 90%;
+  transition: scale 0.15s filter 0.15s;
+  filter: brightness(75%);
+}
